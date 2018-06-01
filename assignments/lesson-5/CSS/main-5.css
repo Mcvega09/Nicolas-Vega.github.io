@@ -1,0 +1,109 @@
+/* Delete these CSS comments after reading. */
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+  font-family: sans-serif;/* Declare the base font-family */
+}
+
+header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+  max-width: ______; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+
+header {
+    background-color: skyblue;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color:darkgray;
+    text-align: center;
+}
+header img {
+   width: 200px;
+   height: auto;
+   border-style: solid; 
+   border-color: white;
+}
+header p.motto {
+    font-style: oblique;
+    font-size: 1.5rem;
+}
+
+nav {
+    background-color: blue;
+    text-align: center;
+    
+}
+nav button {}
+nav ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+nav ul li {
+    display: block;
+    
+    
+}
+nav ul li a {
+    display: block;
+    color: lightyellow;
+    text-align: center;
+    padding: .75em;
+    text-decoration: none;
+    font-size: .9rem;
+    
+}
+nav ul li.active a {}
+nav ul li a:hover {
+    background-color: cadetblue;
+    color: dimgray
+    
+}
+
+main {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+main h2 {
+    font-size: 25px;
+    text-align: left;
+    
+}
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure img { }
+.weather-summary{
+    text-align: center;
+}
+
+.forecast{
+    display: none;
+}
+main article{
+    padding: .25em;
+    text-align: center;
+}
+
+main article img {
+    width: 95%;
+    height:auto;
+    float:left;
+    position: relative;
+}
+footer {
+    position: relative;
+    text-align: center;
+    clear: both;
+}

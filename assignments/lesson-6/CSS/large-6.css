@@ -1,0 +1,14 @@
+@media only screen and (min-width: 64em ) {
+
+    main figure img{
+        float: none;
+        margin-right: 0;
+    }
+
+    .weathercontainer{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+}
+

@@ -1,0 +1,193 @@
+
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* {
+    box-sizing: border-box;
+    margin: auto;
+
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Merriweather', sans-serif;
+    color: #142144;
+    padding: 1.5em;
+}
+
+header, nav, main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', sans-serif;
+    color: darkblue;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.subheading{
+    text-align: right;
+    margin-top: -1.5em;
+}
+
+.title {
+    text-align: right;
+}
+
+header img {
+    width: 150px;
+    justify-content: flex-start;
+}
+
+nav {
+    background-color: #142144;
+    text-align: center;
+}
+
+nav button {
+    background-color: cadetblue;
+    border: none;
+    font-size: 2rem;
+    color: yellow;
+    display: block;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    width: 100%;
+}
+
+nav ul li {
+    display: block;
+}
+
+nav ul li a {
+    display: block;
+    width: 100%;
+    color: yellow;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    font-size: 1rem;
+    border-top: 1ps solid rgba(0,0,0,0.3);
+}
+
+nav ul li.active a {
+    color: lightslategray;
+}
+nav ul li a:hover {
+    color: mediumblue;
+    background-color: darkgrey;
+}
+
+nav ul.hide {
+    display: none;
+}
+.forecast {
+    display: none;
+}
+
+main {}
+
+main h2 {
+    padding: 1em;
+}
+
+main figure img {
+    height: auto;
+    padding: 0;
+    margin: auto;
+
+}
+
+.current img {
+    width: 100px;
+    height: auto;
+    margin: 1em;
+
+
+}
+
+.weathercontainer{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+    margin-top: -10px;
+}
+
+.weather-summary{
+    text-align: center;
+}
+.weather-summary h3{
+    padding-top: 1em;
+}
+
+.forecast h3{
+    padding: 1em;
+    clear: both;
+}
+
+table {
+    margin:auto;
+}
+
+thead, tbody {
+    background-color: yellow;
+    border: 1px solid;
+    text-align: center;
+}
+th {
+    padding: .5em
+}
+
+td {
+    padding: .5em;
+}
+.articleheader {
+    padding: 1em;
+}
+
+article img {
+    width: 95%;
+    height: auto;
+    box-shadow: 3px 3px 3px #bbb;
+}
+
+article p {
+    text-align: left;
+    padding-bottom: 1em;
+}
+
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-content: center;
+    margin-top: -10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #142144;
+    color: yellow;
+    padding-top: 1em;
+}
+
+.footer-bar {
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+
+}

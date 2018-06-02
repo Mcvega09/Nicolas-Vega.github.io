@@ -1,0 +1,47 @@
+@media only screen and (min-width:37.5em) {
+
+
+    nav button {
+        display: none;
+    }
+
+    nav ul.hide{
+        display: block;
+    }
+
+    /* hamburger button does not need to be shown in the medium on up views */
+    nav ul li {
+        display: inline-block;
+
+    }
+
+    main figure img {
+        width: 95%;
+        float: left;
+        margin-right: 1em;
+    }
+
+    .current img {
+        display: inline;
+    }
+
+    .weathercontainer{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+    }
+
+
+    .forecast {
+        display: block;
+    }
+
+
+    article img {
+        width: 50%;
+        float: right;
+        margin: .25em;
+
+    }
+
+}

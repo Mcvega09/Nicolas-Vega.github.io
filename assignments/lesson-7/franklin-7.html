@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Franklin City News Center</title>
+        <meta name="description" content="The weather and events for the City of Franklin.">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+        <link rel="stylesheet" href="CSS/normalizecss.css">
+        <link rel="stylesheet" href="CSS/main-7.css">
+        <link rel="stylesheet" href="CSS/medium-7.css">
+        <link rel="stylesheet" href="CSS/large-7.css">
+    </head>
+   
+<body>
+
+    <header>
+    
+        <div id="headerimage"><img src="images/sunny.jpeg.png" alt="Franklin City logo"> 
+        </div>
+            
+        <div id="headermotto"><h1>City of Franklin News Center</h1>
+                
+            <br>
+            <br>
+            <h2 class="subheading">Your outlet for all things Franklin.</h2>
+        </div>
+
+        </header>
+
+        <nav>
+            <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+            <ul id="primarynavigation" class="hide">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Franklin</a></li>
+                <li><a href="#">Greenville</a></li>
+                <li><a href="#">Springfield</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>Weather Center</h2>
+                <figure>
+            <div class="weathercontainer">
+                            
+
+                    <img src="images/franklin-original.jpeg" alt="sun and field" sizes="50vw"
+                         srcset="images/franklin-small.jpg 400w,
+                                images/franklin-medium.jpg 800w,
+                                 images/franklin-large.jpg 1250">
+                </figure>
+                <section class="weather-summary">
+                    <h3>Your Current Weather</h3>
+                    
+                    <div class="container">
+                    
+                        
+                    <div class="highlow">
+                    
+                        <p><span class="sunny">Sunny</span><br>
+                        
+                        <span class="temps"><span class="weatherprefix">High:</span><span><span id="hightemp">89</span>&deg;F</span><br>
+                        <span class="weatherprefix">Low:</span> <span id="lowtemp">54</span>&deg;F</span><br>
+                    
+                        </p>
+                
+                        
+                    </div>
+                        <div class="precentagewind">
+                    <p> <span class="weatherprefix">Precipitation:</span> 0%<br>
+                        <span class="weatherprefix">Wind Speed:</span> <span id="windspeed">10</span> mph<br>
+                        <span class="weatherprefix">Wind Chill:</span> <span id="windchills"></span>
+                    </p>
+                </div>
+                        
+                        <picture class="current">
+                            <img src="images/franklinlogo.png" alt="sun and clouds">
+                        </picture>
+                    </div>
+                </section>
+            </div>
+
+            <section class="forecast">
+                <h3>Ten Day Forecast</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Day 1</th>
+                            <th>Day 2</th>
+                            <th>Day 3</th>
+                            <th>Day 4</th>
+                            <th>Day 5</th>
+                            <th>Day 6</th>
+                            <th>Day 7</th>
+                            <th>Day 8</th>
+                            <th>Day 9</th>
+                            <th>Day 10</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>89&deg;F</td>
+                            <td>87&deg;F</td>
+                            <td>78&deg;F</td>
+                            <td>75&deg;F</td>
+                            <td>72&deg;F</td>
+                            <td>72&deg;F</td>
+                            <td>79&deg;F</td>
+                            <td>83&deg;F</td>
+                            <td>85&deg;F</td>
+                            <td>89&deg;F</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <article>
+                <h3 class="articleheader">Franklin Breaking Record</h3><img src="images/lighting.jpeg" alt="lightning">
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id diam arcu. Sed erat felis, pellentesque at tincidunt quis, venenatis a diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi eu risus non ipsum accumsan maximus vitae sed nulla. In rhoncus rutrum dui nec pulvinar. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam augue turpis, suscipit a nisl eget, semper venenatis mauris. Nunc id dui et mauris lacinia pellentesque. Etiam consequat vestibulum purus et ullamcorper. Maecenas ornare dignissim posuere.
+
+                    Praesent a metus at ex sollicitudin semper. Vivamus suscipit vel dolor a sollicitudin. Sed ac augue interdum, pulvinar urna eget, ornare ex. Phasellus sit amet pulvinar elit. Sed vel urna non est semper scelerisque. Fusce ante felis, tempor nec rutrum at, scelerisque ut enim. Sed facilisis lacus et dapibus sodales. 
+                </p>
+
+
+                <p class="franklin-article">
+                </p>
+            </article>
+
+        </main>
+
+        <footer>
+            <div class="contact">
+                Current Conditions<br>
+                (999)555-5555<br>
+                123 Frankie St. <br>
+                Franklin, US 837010<br>
+                Google Map<br>
+            </div>
+            <div class="footer-bar">&copy;2018 | All Rights Reserved | Current Conditions | <span id="currentdate"></span>
+            </div>
+        </footer>
+
+        <script src="JS/currentdate.js"></script>
+        <script src="JS/hamburger.js"></script>
+        <script src="JS/windchills.js"></script>
+
+    </body>
+</html>

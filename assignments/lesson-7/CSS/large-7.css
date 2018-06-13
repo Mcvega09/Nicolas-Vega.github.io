@@ -1,0 +1,34 @@
+@media only screen and (min-width: 64em ) {
+
+    main figure img{
+        float: none;
+        margin-right: 0;
+    }
+
+    header h1{
+        font-size: 3em;
+    }
+
+    .subheading{
+       margin-top: -35px;
+    }
+
+    .sunny {
+        font-size: 1.5rem
+    }
+
+    .weathercontainer{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+      .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .gallery figure:hover {
+        box-shadow: 5px 5px LightGray;
+
+    }
+}
+

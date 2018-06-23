@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Franklin City News Center</title>
+        <meta name="description" content="The weather and events for the City of Franklin.">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+        <link rel="stylesheet" href="CSS/normalize.css">
+        <link rel="stylesheet" href="CSS/main-9.css">
+        <link rel="stylesheet" href="CSS/medium-9.css">
+        <link rel="stylesheet" href="CSS/large-9.css">
+    </head>
+   
+<body>
+
+    <header>
+    
+        <div id="headerimage"><img src="images/sunny.jpeg.png" alt="Franklin City logo"> 
+        </div>
+            
+        <div id="headermotto"><h1>City of Franklin News Center</h1>
+                
+            <br>
+            <br>
+            <h2 class="subheading">Your outlet for all things Franklin.</h2>
+        </div>
+
+        </header>
+
+        <nav>
+            <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+            <ul id="primarynavigation" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="lesson-8/franklin-8.html">Franklin</a></li>
+                <li><a href="#">Greenville</a></li>
+                <li><a href="#">Springfield</a></li>
+                <li><a href="lesson-8/stormcenter.html">Storm Center</a></li>
+                <li><a href="lesson-8/gallery-8.html">Gallery</a></li>
+
+            </ul>
+        </nav>
+
+     <main>
+            <article class="sunflower">
+                <h3>Expecting a Hot a Beautiful Summer</h3>
+                <img src="images/sunflower1.jpg" alt="sunflower field">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id diam arcu. Sed erat felis, pellentesque at tincidunt quis, venenatis a diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi eu risus non ipsum accumsan maximus vitae sed nulla. In rhoncus rutrum dui nec pulvinar. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam augue turpis, suscipit a nisl eget, semper venenatis mauris. Nunc id dui et mauris lacinia pellentesque. Etiam consequat vestibulum purus et ullamcorper. Maecenas ornare dignissim posuere.
+
+                    Praesent a metus at ex sollicitudin semper. Vivamus suscipit vel dolor a sollicitudin. Sed ac augue interdum, pulvinar urna eget, ornare ex. Phasellus sit amet pulvinar elit. Sed vel urna non est semper scelerisque. Fusce ante felis, tempor nec rutrum at, scelerisque ut enim. Sed facilisis lacus et dapibus sodales. 
+                </p>
+
+            </article>
+
+
+            <div class="townsections">
+                <div class="townpieces">
+                    <div class="townstats">
+                        <h3 class="titletop"> Franklin City</h3>
+                        <p>
+                            <span class="towndataprefix">Motto:</span> &quot;<span id="Franklinmotto"></span>&quot;<br>
+                            <span class="towndataprefix">Year Founded:</span> <span id="Franklinyear"></span><br>
+                            <span class="towndataprefix">Population:</span> <span id="Franklinpop"></span><br>
+                            <span class="towndataprefix">Annual Rainfall:</span> <span id="Franklinrain"></span> inches</p>
+                    </div>
+
+                <picture class="townimages">
+                    <img src="images/franklincity1.jpg" alt="franklin city">
+                </picture>
+                </div>
+
+
+
+                <div class="townpieces"  id="picleft">
+                    <div class="townstats">
+                        <h3> Greenville City</h3>
+                        <p>
+                            <span class="towndataprefix">Motto:</span> &quot;<span id="Greenvillemotto"></span>&quot;<br>
+                            <span class="towndataprefix">Year Founded:</span> <span id="Greenvilleyear"></span><br>
+                            <span class="towndataprefix">Population:</span> <span id="Greenvillepop"></span><br>
+                            <span class="towndataprefix">Annual Rainfall:</span> <span id="Greenvillerain"></span> inches</p>
+                    </div>
+
+
+                    <picture class="townimages">
+                        <img src="images/greenvillecity1.jpg" alt="franklin farm">
+                    </picture>
+                </div>
+
+
+
+                <div class="townpieces">
+                    <div class="townstats">
+                        <h3 class="titletop"> Springfield City</h3>
+                        <p>
+                            <span class="towndataprefix">Motto:</span> &quot;<span id="Springfieldmotto"></span>&quot;<br>
+                            <span class="towndataprefix">Year Founded:</span> <span id="Springfieldyear"></span><br>
+                            <span class="towndataprefix">Population:</span> <span id="Springfieldpop"></span><br>
+                            <span class="towndataprefix">Annual Rainfall:</span> <span id="Springfieldrain"></span> inches</p>
+                    </div>
+
+
+                    <picture class="townimages">
+                        <img src="images/springfieldcity1.jpg" alt="franklin farm">
+                    </picture>
+                </div>
+            </div>
+
+
+
+
+
+        </main>
+
+        <footer>
+            <div class="contact">
+                Current Conditions<br> 999.999.9999
+                <br> 123 Main St. <br> Anytown, US 99999<br> Google Map<br>
+                Weather data generously provided by <a href="https://openweathermap.org/">OpenWeatherMap</a>
+            </div>
+            <div class="footer-bar">&copy;2018 | All Rights Reserved | Current Conditions | <span id="currentdate"></span>
+            </div>
+        </footer>
+
+        <script src="JS/currentdate.js"></script>
+        <script src="JS/hamburger.js"></script>
+        <script src='JS/towndata.js'></script>
+        </body>
+
+</html>

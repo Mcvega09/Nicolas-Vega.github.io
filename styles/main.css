@@ -16,9 +16,9 @@ h1 {
     color: ghostwhite
 }
 
-h2, main, l1 {
+h2, main, l1, ul {
     font-size: /* x.xrem */;
-    text-align: center;
+    text-align: left;
     border-bottom: 1px solid #bbb;
         color: darkred
 

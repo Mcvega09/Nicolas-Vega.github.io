@@ -1,0 +1,79 @@
+@media only screen and (min-width:37.5em) {
+
+
+    header img{
+        width: 200px;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+    }
+    nav button {
+        display: none;
+    }
+    
+    nav {
+        margin-top: 0;
+    }
+    
+    
+    header h2 {
+        font-size: 1.30rem;
+        margin: auto;
+    }
+
+    nav ul.hide{
+        display: flex;
+    }
+
+    /* hamburger button does not need to be shown in the medium on up views */
+   
+    nav ul {
+        display:flex;
+    }
+    nav ul li a{
+        display: block;
+
+    }
+
+    main figure img {
+        width: 100%;
+        float: left;
+        margin-right: 1em;
+    }
+
+    .current img {
+        display: inline;
+    }
+
+    .weathercontainer{
+        flex-direction: row;
+    }
+ 
+    .weatherprefix{
+        font-size: 1rem;
+    }
+
+    .sunny {
+        font-size: 1.5rem;
+
+    }
+
+    .forecast {
+        display: flex;
+        flex-flow: column;
+    }
+
+
+    article img {
+        width: 50%;
+        float: right;
+        margin: .25em;
+
+    }
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+}

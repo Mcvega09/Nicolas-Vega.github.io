@@ -146,7 +146,7 @@ section h3 {
     justify-content: center;
     align-content: center;
     padding: 0;
-    margin-top: -10px;
+    margin-top: 10px;
     border: 1px solid black;
     
 }
@@ -159,7 +159,7 @@ section h3 {
 
 .precentagewind{
     text-align: center;
-    margin: 0 1em 1em 1em;
+    margin: 5 1em 1em 1em;
 }
 
 .weatherprefix{
@@ -213,6 +213,7 @@ article p {
     justify-content: center;
     align-content: center;
     margin-top: -10px;
+    border: 3px solid black;
 }
 
 footer {

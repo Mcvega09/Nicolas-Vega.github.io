@@ -1,0 +1,43 @@
+@media only screen and (min-width: 64em ) {
+
+    header h1{
+        font-size: 3em;
+    }
+
+    .subheading{
+       margin-top: -35px;
+    }
+
+    .sunny {
+        font-size: 1.5rem
+    }
+
+/* Styles for Gallery Page Start Here */
+
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .gallery figure:hover {
+        box-shadow: 5px 5px LightGray;
+    }
+
+/*Styles for the Index Page Start Here */
+    .townpieces{
+        display: flex;
+        flex-flow: column;
+    }
+    .townsections {
+        flex-flow: row nowrap;
+    }
+
+    #picleft{
+        flex-direction: column;
+
+    }
+
+}
+
+
+
+

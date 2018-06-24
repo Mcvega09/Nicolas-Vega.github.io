@@ -33,11 +33,11 @@
         <nav>
             <button class="hamburger" onclick="toggleHam()">&#9776;</button>
             <ul id="primarynavigation" class="hide">
-                <li><a href="#">Home</a></li>
+                <li><a href="assignments/lesson-9/index.html">Home</a></li>
                 <li><a href="#">Franklin</a></li>
                 <li><a href="#">Greenville</a></li>
                 <li><a href="#">Springfield</a></li>
-                <li><a href="#">Storm Center</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
                 <li><a href="gallery-7.html">Gallery</a></li>
 
             </ul>
@@ -45,7 +45,21 @@
 
         <main>
             <h2>Weather Center</h2>
-                <figure>
+             <div class="franklinstats">
+
+            <div class = "mypa">
+                <p><span class="towndataprefix">Motto:</span> &quot;<span id="Franklinmotto"></span>&quot;</p>
+                <p><span class="towndataprefix">Year Founded:</span> <span id="Franklinyear"></span></p>
+                <p><span class="towndataprefix">Population:</span> <span id="Franklinpop"></span></p>
+                <p><span class="towndataprefix">Annual Rainfall:</span> <span id="Franklinrain"></span> inches</p>
+            </div>
+            <div class="events">
+                <p><span class="towndataprefix">Town Events:</span><span id="Franklinevents"></span></p>
+            </div>
+        </div>
+            
+            
+            <figure>
             <div class="weathercontainer">
                             
 
@@ -141,6 +155,8 @@
                 123 Frankie St. <br>
                 Franklin, US 837010<br>
                 Google Map<br>
+                Current Weather provided by <a href="https://openweathermap.org/">OpenWeatherMap</a>
+
             </div>
             <div class="footer-bar">&copy;2018 | All Rights Reserved | Current Conditions | <span id="currentdate"></span>
             </div>
@@ -149,6 +165,10 @@
         <script src="JS/currentdate.js"></script>
         <script src="JS/hamburger.js"></script>
         <script src="JS/windchills.js"></script>
+        <script src="JS/weather.js"></script>
+        <script src="JS/towndata.js"></script>
+
+
 
     </body>
 </html>

@@ -35,7 +35,20 @@
         display: block;
 
     }
+.franklinstats {
+        display: flex;
+       flex-flow: row;
+        padding-bottom: 1em;
 
+    }
+    .mypa {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .mypa p {
+        margin: 0;
+    }
     main figure img {
         width: 100%;
         float: left;

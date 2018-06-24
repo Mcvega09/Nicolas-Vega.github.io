@@ -102,6 +102,15 @@ nav ul li a:hover {
 nav ul.hide {
     display: none;
 }
+.franklinstats {
+    display: block;
+    text-align: left;
+    padding-bottom: 1em;
+
+}
+.mypa {
+    display: block;
+}
 .forecast {
     display: none;
 }

@@ -49,7 +49,11 @@
     .mypa p {
         margin: 0;
     }
+ .towndataprefix{
+    font-weight: bolder;
+    color: #142144;
 
+}
     .container{
         flex-direction: row;
     }

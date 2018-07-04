@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>City of Franklin Gallery Page</title>
+        <meta name="description" content="Weather-gallery of 6 weather conditions">
+       <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+        <link rel="stylesheet" href="CSS/normalizecss.css">
+        <link rel="stylesheet" href="CSS/main-9.css">
+        <link rel="stylesheet" href="CSS/medium-9.css">
+        <link rel="stylesheet" href="CSS/large-9.css">
+    </head>
+    <body>
+
+        <header>
+    
+        <div id="headerimage"><img src="images/sunny.jpeg.png" alt="Franklin City logo"> 
+        </div>
+            
+        <div id="headermotto"><h1>City of Franklin News Center</h1>
+                
+            <br>
+            <br>
+            <h2 class="subheading">Your outlet for all things Franklin.</h2>
+        </div>
+
+        </header>
+
+
+        <nav>
+            <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+            <ul id="primarynavigation" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="franklin-8.html">Franklin</a></li>
+                <li><a href="greenville.html">Greenville</a></li>
+                <li><a href="springfield.html">Springfield</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li class = "active"><a href="gallery-8.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main class="gallery">
+            <figure>
+                <img src="images/lightningstorm.jpg" alt="lightning storm">
+                <figcaption>Lighting storm puts on a show for the City of Franklin.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/rainyday.jpg" alt="rainy city">
+                <figcaption>Get your boots and umbrellas out, its going to be a wet one!</figcaption>
+            </figure>
+            <figure>
+                <img src="images/snowyday.jpg" alt="snow day">
+                <figcaption>Franklin gets one its heaviest snow falls of the year.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/springblossom.jpg" alt="cherry blossom blooming">
+                <figcaption>Get ready Franklin spring is here.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/stormyday.jpg" alt="drak clouds of city">
+                <figcaption>Frankln under warnng as summer MEGA storm approaches.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/sunnyday.jpg" alt="clear day">
+                <figcaption>A week full of sun is heading Franklins way.</figcaption>
+            </figure>
+
+
+
+        </main>
+
+        <footer>
+            <div class="contact">
+                Current Conditions<br>
+                (999)555-5555<br>
+                123 Frankie St. <br>
+                Franklin, US 837010<br>
+                Google Map                Current Weather provided by <a href="https://openweathermap.org/">OpenWeatherMap</a>
+<br>
+            </div>
+            <div class="footer-bar">&copy;2018 | All Rights Reserved | Current Conditions | <span id="currentdate"></span>
+            </div>
+        </footer>
+
+        <script src="JS/currentdate.js"></script>
+        <script src="JS/hamburger.js"></script>
+        
+    </body>
+</html>

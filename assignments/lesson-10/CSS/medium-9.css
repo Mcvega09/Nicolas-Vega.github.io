@@ -1,0 +1,112 @@
+@media only screen and (min-width:37.5em) {
+
+    header img{
+        width: 200px;
+
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header h2 {
+        font-size: 1.25rem;
+    }
+
+    nav{
+        margin-top: 0;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul.hide{
+        display: flex;
+    }
+
+    /* hamburger button does not need to be shown in the medium on up views */
+    nav ul {
+        display:flex;
+
+    }
+
+    nav ul li a {
+        display: block;
+    }
+
+    .franklinstats {
+        display: flex;
+       flex-flow: row;
+        padding-bottom: 1em;
+
+    }
+    .mypa {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .mypa p {
+        margin: 0;
+    }
+ .towndataprefix{
+    font-weight: bolder;
+    color: #142144;
+
+}
+    .container{
+        flex-direction: row;
+    }
+
+    .highlow{
+        text-align: left;
+    }
+    .precwind{
+        text-align: left;
+        margin-top: 1.5em;
+        margin-bottom: 0;
+    }
+
+    .weatherprefix{
+        font-size: 1rem;
+    }
+
+    .sunny {
+        font-size: 1.5rem;
+
+    }
+
+    .forecast {
+        display: flex;
+        flex-flow: column;
+    }
+
+
+    article img {
+        width: 50%;
+        float: right;
+        margin: .25em;
+
+    }
+
+/* Styles for Gallery Page Start Here */
+
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+
+/* Styles for the Index Page Start Here */
+    .townpieces{
+        display: inline-flex;
+    }
+
+    #picleft{
+        flex-direction: row-reverse;
+    }
+    .sunflower img {
+        float: left;
+        margin-right: 1rem;
+    }
+    }
+
+
